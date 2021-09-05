@@ -1,0 +1,8 @@
+print("Bienvenido. Este es el conversor de sistema de unidades de longitud.")
+A = float(input("Ingrese, por favor, la longitud en metros (M): "))
+Pies = (A*3.281)
+Yardas = (A*1.094)
+Millas = (A/1609)
+print("El valor en pies es: " , Pies)
+print("El valor en yardas es: " , Yardas)
+print("El valor en millas es: " , Millas)

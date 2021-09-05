@@ -1,0 +1,7 @@
+SalarioD = float(input("Ingrese, por favor, el salario diario: "))
+DiasT = float(input("Ingrese, por favor, el número de días trabajados: "))
+SalarioB = (SalarioD*DiasT)
+Pension = (SalarioB*0.10)
+Salud = (SalarioB*0.15)
+SalarioTotal = (SalarioB-Pension-Salud)
+print("El salario total es: " , SalarioTotal)

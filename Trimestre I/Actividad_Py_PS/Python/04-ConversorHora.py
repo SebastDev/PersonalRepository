@@ -1,0 +1,7 @@
+print("Bienvenido. Este es el aplicativo para convertir el tiempo en horas y minutos a segundos.")
+HH = float(input("Ingrese, por favor, el tiempo en horas (HH): "))
+MM = float(input("Ingrese, por favor, los minutos (MM): "))
+h = (HH*3600)
+m = (MM*60)
+Seg = (m+h)
+print("El resultado es: " , Seg)

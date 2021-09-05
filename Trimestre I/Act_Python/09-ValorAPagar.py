@@ -1,0 +1,8 @@
+Cantidad = float(input("Ingrese, por favor, la cantidad de productos a comprar: "))
+ValorU = float(input("Ingrese, por favor, el valor unitario de los producto: "))
+SubTotal = (ValorU*Cantidad)
+print("SubTotal: " , SubTotal)
+IVA = (SubTotal*0.16)
+print("Valor del IVA: " , IVA)
+Total = (IVA+SubTotal)
+print("El valor total es: " , Total)

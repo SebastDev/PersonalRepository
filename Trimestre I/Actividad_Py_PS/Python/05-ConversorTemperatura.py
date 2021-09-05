@@ -1,0 +1,6 @@
+print("Bienvenido. Este es el conversor de temperatura.")
+C = float(input("Ingrese, por favor, los grados Celsius que desea convertir: "))
+F = (C*(9/5)+32)
+K = (C+273.15)
+print("Fahrenheit: " , F)
+print("Kelvin: " , K)

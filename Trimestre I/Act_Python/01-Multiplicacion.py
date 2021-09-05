@@ -1,0 +1,5 @@
+Valor1 = float(input("Ingrese, por favor, el primer número: "))
+Valor2 = float(input("Ingrese, por favor, el segundo número: "))
+Valor3 = float(input("Ingrese, por favor, el tercer número: "))
+Total = (Valor1*Valor2*Valor3)
+print("El resultado de la multiplicación es: " , Total)
